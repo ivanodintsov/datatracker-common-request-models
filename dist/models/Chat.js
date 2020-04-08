@@ -79,6 +79,11 @@ var Chat = /** @class */ (function () {
         class_transformer_1.Type(function () { return ChatPhoto_1.default; }),
         __metadata("design:type", ChatPhoto_1.default)
     ], Chat.prototype, "photo", void 0);
+    __decorate([
+        class_transformer_1.Expose(),
+        class_transformer_1.Type(function () { return Date; }),
+        __metadata("design:type", Date)
+    ], Chat.prototype, "cron_updated_at", void 0);
     Chat = __decorate([
         class_transformer_1.Exclude()
     ], Chat);

@@ -59,6 +59,10 @@ export class Chat {
   @Expose()
   @Type(() => ChatPhoto)
   photo: ChatPhoto;
+
+  @Expose()
+  @Type(() => Date) 
+  cron_updated_at: Date;
 }
 
 export default Chat;
