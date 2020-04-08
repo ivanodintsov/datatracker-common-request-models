@@ -7,11 +7,10 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "dist",
+    "rootDir": "src"
   },
-  "include": [
-    "**/*"
-  ],
   "exclude": [
     "node_modules"
   ]
