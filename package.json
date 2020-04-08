@@ -1,0 +1,27 @@
+{
+  "name": "datatrcker-common-request-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --p ./tsconfig.json",
+    "build:watch": "tsc --p ./tsconfig.json --w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanodintsov/datatrcker-common-request-models.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanodintsov/datatrcker-common-request-models/issues"
+  },
+  "homepage": "https://github.com/ivanodintsov/datatrcker-common-request-models#readme",
+  "dependencies": {
+    "class-transformer": "^0.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
