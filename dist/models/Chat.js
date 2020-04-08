@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var class_transformer_1 = require("class-transformer");
+var ChatPhoto_1 = require("./ChatPhoto");
 var Chat = /** @class */ (function () {
     function Chat() {
     }
@@ -73,6 +74,11 @@ var Chat = /** @class */ (function () {
         class_transformer_1.Type(function () { return Number; }),
         __metadata("design:type", Number)
     ], Chat.prototype, "members_count", void 0);
+    __decorate([
+        class_transformer_1.Expose(),
+        class_transformer_1.Type(function () { return ChatPhoto_1.default; }),
+        __metadata("design:type", ChatPhoto_1.default)
+    ], Chat.prototype, "photo", void 0);
     Chat = __decorate([
         class_transformer_1.Exclude()
     ], Chat);

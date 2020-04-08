@@ -1,5 +1,6 @@
 import { Exclude, Expose, Type } from 'class-transformer';
 import { Message } from './Message';
+import ChatPhoto from './ChatPhoto';
 
 @Exclude()
 export class Chat {
@@ -54,6 +55,10 @@ export class Chat {
   @Expose()
   @Type(() => Number)
   members_count: number;
+
+  @Expose()
+  @Type(() => ChatPhoto)
+  photo: ChatPhoto;
 }
 
 export default Chat;
